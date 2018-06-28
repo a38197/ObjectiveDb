@@ -1,0 +1,15 @@
+#objectivedb project
+\.idea/
+\.gradle/
+build
+
+**/\.idea/
+**/\.gradle/
+**/build
+
+/\.gradle
+
+*.db4o
+*.log
+*.iml
+*.odb

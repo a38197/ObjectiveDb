@@ -1,0 +1,12 @@
+rootProject.name = 'objectivedb'
+include 'testing-base'
+include 'sync'
+include 'query'
+include 'serialization'
+include 'storage'
+include 'core'
+include 'reflector'
+include 'indexer'
+include 'identity'
+include 'shared'
+

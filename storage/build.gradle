@@ -1,0 +1,19 @@
+group 'pt.isel.ncml.objectivedb'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+dependencies {
+    compile project(':shared')
+    compile project(':indexer')
+
+    compile 'org.fusesource.leveldbjni:leveldbjni-all:1.8'
+    testCompile project(':testing-base')
+}

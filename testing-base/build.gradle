@@ -1,0 +1,18 @@
+group 'pt.isel.ncml.objectivedb'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+dependencies {
+    //This module serves as a test base for others
+    compile group: 'junit', name: 'junit', version: '4.4'
+    compile project(':identity')
+    compile project(':reflector')
+}
